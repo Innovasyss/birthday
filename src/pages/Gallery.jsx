@@ -7,21 +7,23 @@ import Particles from '../components/Particles'
 import BackButton from '../components/BackButton'
 import PageTransition from '../components/PageTransition'
 
+const base = import.meta.env.BASE_URL
+
 const memories = [
   {
     id: 1,
     caption: 'Main character energy ✨',
-    image: '/images/photo1.jpeg',
+    image: `${base}images/photo1.jpeg`,
   },
   {
     id: 2,
     caption: 'Still one of my favorite photos',
-    image: '/images/photo3.jpeg',
+    image: `${base}images/photo3.jpeg`,
   },
   {
     id: 3,
     caption: 'This deserved to be here 💖',
-    image: '/images/photo2.jpeg',
+    image: `${base}images/photo2.jpeg`,
   },
 ]
 
