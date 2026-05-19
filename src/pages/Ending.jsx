@@ -162,7 +162,7 @@ export default function Ending() {
                   animate={{ opacity: 1 }}
                   transition={{ delay: 3 }}
                 >
-                  made with ♡ for shifa
+                  made with ♡ for bb
                 </motion.p>
 
                 <motion.button

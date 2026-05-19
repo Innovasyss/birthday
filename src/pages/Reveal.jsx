@@ -147,7 +147,7 @@ export default function Reveal() {
                 >
                   HAPPY BIRTHDAY
                   <br />
-                  SHIFA 🎂
+                  bb 🎂
                 </motion.h1>
 
                 <motion.div

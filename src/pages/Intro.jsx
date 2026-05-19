@@ -17,7 +17,7 @@ export default function Intro() {
 
   const handleSubmit = (e) => {
     e.preventDefault()
-    if (password.toLowerCase() === 'shifa') {
+    if (password.toLowerCase() === 'bb') {
       setUnlocked(true)
       triggerHeartRain()
       setTimeout(() => navigate('/reveal'), 2500)
@@ -89,7 +89,7 @@ export default function Intro() {
                 </motion.p>
 
                 <p className="text-center text-cream/60 font-body text-xs mb-6">
-                  Only Shifa can unlock this.
+                  Only bb can unlock this.
                 </p>
 
                 <form onSubmit={handleSubmit} className="space-y-4">
@@ -198,7 +198,7 @@ export default function Intro() {
           animate={{ opacity: 1 }}
           transition={{ delay: 2 }}
         >
-          made for shifa ♡
+          made for bb ♡
         </motion.p>
       </div>
     </PageTransition>

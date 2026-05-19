@@ -5,7 +5,7 @@ import Particles from '../components/Particles'
 import BackButton from '../components/BackButton'
 import PageTransition from '../components/PageTransition'
 
-const letterContent = `Hey Shifa,
+const letterContent = `Hey bb,
 
 So you made it past all the locks and secrets just to read a letter. Cute. But I guess you earned it.
 
@@ -146,7 +146,7 @@ export default function Letter() {
                                 initial={{ opacity: 0, x: -10 }}
                                 animate={{ opacity: 1, x: 0 }}
                                 transition={{ delay: 1 + i * 0.15, duration: 0.4 }}
-                                className={line.startsWith('With love') || line.startsWith('Hey Shifa') ? 'font-bold text-lg' : ''}
+                                className={line.startsWith('With love') || line.startsWith('Hey bb') ? 'font-bold text-lg' : ''}
                               >
                                 {line}
                               </motion.p>

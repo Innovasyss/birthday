@@ -1,14 +1,14 @@
 export function useEasterEgg() {
   const registerKeySequence = (key) => {
-    if (typeof window.__shifaKeys === 'undefined') {
-      window.__shifaKeys = ''
+    if (typeof window.__bbKeys === 'undefined') {
+      window.__bbKeys = ''
     }
-    window.__shifaKeys += key.toLowerCase()
-    if (window.__shifaKeys.length > 5) {
-      window.__shifaKeys = window.__shifaKeys.slice(-5)
+    window.__bbKeys += key.toLowerCase()
+    if (window.__bbKeys.length > 5) {
+      window.__bbKeys = window.__bbKeys.slice(-5)
     }
-    if (window.__shifaKeys === 'shifa') {
-      window.__shifaKeys = ''
+    if (window.__bbKeys === 'bb') {
+      window.__bbKeys = ''
       window.dispatchEvent(new CustomEvent('easteregg:heartrain'))
     }
   }
